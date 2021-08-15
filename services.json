@@ -10,7 +10,7 @@
     "name": "Nekomori",
     "description": "Nekomori.ch",
     "forNotRx": true,
-    "url": "https://nekomori.ch/anime/{id}/general"
+    "url": "nekomori.ch/anime/{id}/general"
   },
 
   {
@@ -21,7 +21,7 @@
   {
     "name": "AnimeGO",
     "forNotRx": true,
-    "url": "https://animego.org/search/all?q={localezedName}"
+    "url": "animego.org/search/all?q={localezedName}"
   },
 
   {
