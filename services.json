@@ -19,7 +19,7 @@
     "url": "www.youtube.com/results?search_query={localezedName}%20{nextEpisode}%20{localizedEpisode}"
   },
   {
-    "name": "AnimeGO",
+    "name": "AnimeG!O",
     "forNotRx": true,
     "url": "animego.org/search/all?q={localezedName}"
   },
