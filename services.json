@@ -7,21 +7,10 @@
     "url": "vk.com/video?q={localezedName}%20{nextEpisode}%20серия"
   },
   {
-    "name": "PlaShiki",
-    "forNotRx": true,
-    "url": "plashiki.su/anime/{id}/episodes/{nextEpisode}"
-  },
-  {
-    "name": "SL",
-    "description": "Shikimori Live",
-    "forNotRx": true,
-    "url": "live.shikimorilive.top/online/{id}/{nextEpisode}"
-  },
-  {
     "name": "Nekomori",
     "description": "Nekomori.ch",
     "forNotRx": true,
-    "url": "app.nekomori.ch/player/{id}/"
+    "url": "https://nekomori.ch/anime/{id}/general"
   },
 
   {
@@ -30,19 +19,9 @@
     "url": "www.youtube.com/results?search_query={localezedName}%20{nextEpisode}%20{localizedEpisode}"
   },
   {
-    "name": "Sibnet",
+    "name": "AnimeGO",
     "forNotRx": true,
-    "url": "video.sibnet.ru/search.php?panel=open&sortby=0&duration=0&inname=1&text={localezedName}%20{nextEpisode}%20серия"
-  },
-  {
-    "name": "Myvi",
-    "forNotRx": true,
-    "url": "www.myvi.tv/search/video?q={localezedName}%20{nextEpisode}%20серия"
-  },
-  {
-    "name": "Rutracker",
-    "forNotRx": true,
-    "url": "rutracker.org/forum/tracker.php?nm={localezedName}"
+    "url": "https://animego.org/search/all?q={localezedName}"
   },
 
   {
@@ -50,11 +29,6 @@
     "description": "YummyAnime",
     "forNotRx": true,
     "url": "yummyanime.club/search?word={localezedName}"
-  },
-  {
-    "name": "AnimeVost",
-    "forNotRx": true,
-    "url": "animerost.org/?do=search&subaction=search&story={localezedName}"
   },
   {
     "name": "AniStar",
