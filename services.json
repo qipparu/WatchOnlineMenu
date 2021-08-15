@@ -1,0 +1,164 @@
+[
+  {
+    "name": "VK",
+    "description": "VK",
+    "forRx": true,
+    "forNotRx": true,
+    "url": "vk.com/video?q={localezedName}%20{nextEpisode}%20серия"
+  },
+  {
+    "name": "PlaShiki",
+    "forNotRx": true,
+    "url": "plashiki.su/anime/{id}/episodes/{nextEpisode}"
+  },
+  {
+    "name": "SL",
+    "description": "Shikimori Live",
+    "forNotRx": true,
+    "url": "live.shikimorilive.top/online/{id}/{nextEpisode}"
+  },
+  {
+    "name": "Nekomori",
+    "description": "Nekomori.ch",
+    "forNotRx": true,
+    "url": "app.nekomori.ch/player/{id}/"
+  },
+
+  {
+    "name": "YouTube",
+    "forNotRx": true,
+    "url": "www.youtube.com/results?search_query={localezedName}%20{nextEpisode}%20{localizedEpisode}"
+  },
+  {
+    "name": "Sibnet",
+    "forNotRx": true,
+    "url": "video.sibnet.ru/search.php?panel=open&sortby=0&duration=0&inname=1&text={localezedName}%20{nextEpisode}%20серия"
+  },
+  {
+    "name": "Myvi",
+    "forNotRx": true,
+    "url": "www.myvi.tv/search/video?q={localezedName}%20{nextEpisode}%20серия"
+  },
+  {
+    "name": "Rutracker",
+    "forNotRx": true,
+    "url": "rutracker.org/forum/tracker.php?nm={localezedName}"
+  },
+
+  {
+    "name": "Yummy",
+    "description": "YummyAnime",
+    "forNotRx": true,
+    "url": "yummyanime.club/search?word={localezedName}"
+  },
+  {
+    "name": "AnimeVost",
+    "forNotRx": true,
+    "url": "animerost.org/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AniStar",
+    "forNotRx": true,
+    "url": "anistar.org/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AniDUB",
+    "forNotRx": true,
+    "url": "online.anidub.com/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AnimeBest",
+    "forNotRx": true,
+    "url": "animebest.org/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AnimeDub",
+    "forNotRx": true,
+    "url": "animedub.ru/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "YouAnime",
+    "forNotRx": true,
+    "url": "you-anime.ru/search?keyword={localezedName}"
+  },
+  {
+    "name": "Desu.me",
+    "forNotRx": true,
+    "url": "desu.me/search/search?keywords={localezedName}"
+  },
+  {
+    "name": "AniMaunt",
+    "forNotRx": true,
+    "url": "animaunt.tv/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AniTokio",
+    "forNotRx": true,
+    "url": "anitokyo.tv/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AnimeSpirit",
+    "forNotRx": true,
+    "url": "animespirit.ru/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "SR",
+    "description": "SovetRomantica",
+    "forNotRx": true,
+    "url": "sovetromantica.com/anime?query={localezedName}"
+  },
+  {
+    "name": "Yandere",
+    "forNotRx": true,
+    "url": "yandere.top/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AnimeLend",
+    "forNotRx": true,
+    "url": "animelend.info/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "RisensTeam",
+    "forNotRx": true,
+    "url": "risens.team/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "AniPlay",
+    "forNotRx": true,
+    "url": "aniplay.tv/?do=search&subaction=search&story={localezedName}"
+  },
+  {
+    "name": "Anime 365",
+    "forNotRx": true,
+    "url": "smotret-anime.ru/catalog/search?q={link}"
+  },
+
+  {
+    "name": "PornHub",
+    "description": "100% Вариант",
+    "forRx": true,
+    "url": "pornhub.com/video/search?search={localezedName}%20{nextEpisode}%20{localizedEpisode}"
+  },
+  {
+    "name": "xVideos",
+    "description": "Для VPNщиков",
+    "forRx": true,
+    "url": "www.xvideos.com/?k={localezedName}%20{nextEpisode}%20{localizedEpisode}"
+  },
+  {
+    "name": "HH",
+    "description": "HentaiHaven",
+    "forRx": true,
+    "url": "hentaihaven.org/search/{englishName}"
+  },
+  {
+    "name": "Hentai 365",
+    "forRx": true,
+    "url": "hentai365.ru/catalog/search?q={link}"
+  },
+  {
+    "name": "HentaiChan",
+    "forRx": true,
+    "url": "henchan.me/?do=search&subaction=search&story={localezedName}"
+  }
+]
