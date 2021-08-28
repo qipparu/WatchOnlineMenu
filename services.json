@@ -10,7 +10,7 @@
     "name": "Nekomori",
     "description": "Nekomori.ch",
     "forNotRx": true,
-    "url": "nekomori.ch/anime/{id}/general"
+    "url": "nekomori.ch/search?type=arts&search={localezedName}"
   },
 
   {
