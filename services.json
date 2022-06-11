@@ -7,10 +7,10 @@
     "url": "vk.com/video?q={localezedName}%20{nextEpisode}%20серия"
   },
   {
-    "name": "Nekomori",
-    "description": "Nekomori.ch",
+    "name": "aniu",
+    "description": "aniu.ru",
     "forNotRx": true,
-    "url": "nekomori.ch/search?type=arts&search={localezedName}"
+    "url": "https://aniu.ru/search/?q={localezedName}"
   },
 
   {
