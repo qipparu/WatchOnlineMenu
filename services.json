@@ -10,7 +10,7 @@
     "name": "aniu",
     "description": "aniu.ru",
     "forNotRx": true,
-    "url": "https://aniu.ru/search/?q={localezedName}"
+    "url": "aniu.ru/search/?q={localezedName}"
   },
 
   {
