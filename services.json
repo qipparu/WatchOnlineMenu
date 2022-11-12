@@ -23,7 +23,11 @@
     "forNotRx": true,
     "url": "animego.org/search/all?q={localezedName}"
   },
-
+  {
+    "name": "Darklibria",
+    "forNotRx": true,
+    "url": "darklibria.it/search?find={localezedName}"
+  },
   {
     "name": "Yummy",
     "description": "YummyAnime",
