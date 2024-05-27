@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Проверка нагрузки процессора
+CPU_LOAD=$(sar -u 1 1 | grep 'Average' | awk '{print $8}')
+CPU_USAGE=$(echo "100 - $CPU_LOAD" | bc)
+
+if (( $(echo "$CPU_USAGE >= 70" | bc -l) )); then
+    logger -p user.warning "CPU load is $CPU_USAGE%"
+fi
+
+# Проверка использования оперативной памяти
+MEM_TOTAL=$(free | grep Mem | awk '{print $2}')
+MEM_USED=$(free | grep Mem | awk '{print $3}')
+MEM_USAGE=$(echo "$MEM_USED * 100 / $MEM_TOTAL" | bc)
+
+if (( MEM_USAGE >= 80 )); then
+    logger -p user.warning "Memory usage is $MEM_USAGE%"
+fi
+
+# Проверка заполненности диска
+DISK_USAGE=$(df / | grep / | awk '{ print $5}' | sed 's/%//g')
+
+if (( DISK_USAGE >= 85 )); then
+    logger -p user.warning "Disk usage is $DISK_USAGE%"
+fi
